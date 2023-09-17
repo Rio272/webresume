@@ -1,0 +1,239 @@
+body{
+    margin: auto;
+}
+
+    #wrapper{
+        border: 0px solid red;
+        display: flex;
+        justify-content: center;
+
+        height: 970px;
+        width: 1920px;
+    }
+
+
+        #prof{ /* Professional Container */
+        
+            background-color: black;
+            
+        
+
+            height: 900px;
+            width: 130px;
+
+            margin-top: 35px;
+            margin-left: 35px;
+        }
+
+            #prof_txt{ /* YOUR PROFESSIONAL */
+
+                writing-mode: vertical-lr;
+
+                transform: rotate(180deg);      
+            
+                text-align: center;
+
+                color: white; 
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 72px;
+
+                height: 900px;
+                width: 110px;
+
+                margin-left: 0;  
+            }
+
+
+        #data{ /* Daten Container */
+            background-color: rgb(255, 0, 0);
+
+            height: 900px;
+            width: 635px;
+
+            margin-top: 35px;
+            margin-left: 45px;
+        }
+
+            #name{
+
+                border-bottom: 3px solid rgb(0, 0, 0);
+            }
+
+                #namedef{ /* NAME SURNAME */
+
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 52px;
+
+                    
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+
+            #socials{
+                border: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+
+                height: 50px;
+                width: 500px;
+
+                margin-top: 0px;
+                margin-left: 35px;
+
+
+            }
+
+                #social1{
+                    border: 1px solid black;
+                }
+
+                #social2{
+                    border: 1px solid black;
+                }
+
+                #social3{
+                    border: 1px solid black;
+                }
+
+        
+        
+        #core{ /* CORE COMPETENCIES */
+            
+            border-bottom: 3px solid rgb(0, 0, 0);
+
+            height: 80px;
+
+            margin-top: 10px;
+        }
+
+            .headline{
+
+                color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 30px;
+
+                margin: auto;
+                margin-top: 30px;
+            }
+
+        
+        #skills{ /* Fähigkeiten Container */
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+
+            margin-top: 20px;
+        }
+
+            #list1{
+                border: 1px solid black;
+                
+                height: 150px;
+                width: 317px;
+
+                margin-left: -23px;
+            }
+
+            #list2{
+                border: 1px solid black;
+
+                height: 150px;
+                width: 317px;
+
+                margin-top: -152px;
+                margin-left: 261px;
+            }
+
+            
+        #eq{ /* EDUCATION QUALIFICATION */
+
+            border-bottom: 3px solid black;
+
+            height: 80px;
+
+            margin-top: -30px;
+        }
+
+        #quali1{
+            border: 1px solid black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+
+            margin-top: 20px;
+        }
+
+            #dates1{
+                border: 1px solid black;
+                
+                height: 120px;
+                width: 50px;
+
+                margin-left: 0px;
+            }
+
+            #text1{
+                border: 1px solid black;
+
+                height: 117px;
+
+
+                margin-top: -74px;
+                margin-left: 102px;
+            }
+        
+        
+        #quali2{
+            border: 1px solid black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+    
+            margin-top: 20px;
+        }
+    
+            #dates2{
+                border: 1px solid black;
+                    
+                height: 120px;
+                width: 100px;
+    
+
+                margin-left: 0px;
+            }
+    
+            #text2{
+                border: 1px solid black;
+    
+                height: 120px;
+                width: 317px;
+    
+                margin-top: -152px;
+                margin-left: 101px;
+            }
+
+
+        #pic{ /* Photo Container */
+            background-color: rgb(223, 191, 12);
+            
+            height: 900px;
+            width: 300px;
+
+            margin-top: 35px;
+            margin-left: 45px;
+        }
+
+
+
+        #xp{ /* EXPERIENCE Container */
+            background-color: rgb(223, 141, 12);
+            
+
+            height: 900px;
+            width: 800px;
+
+            margin-top: 35px;
+            margin-left: 45px;
+            margin-right: 35px;
+        }
