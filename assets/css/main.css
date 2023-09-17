@@ -1,9 +1,19 @@
+@font-face {
+
+    font-family: Inter;
+    src: url(../fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 body{
+
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+
     margin: auto;
 }
 
     #wrapper{
-        border: 0px solid red;
+        
         display: flex;
         justify-content: center;
 
@@ -12,7 +22,7 @@ body{
     }
 
 
-        #prof{ /* Professional Container */
+        #prof_con{ /* Professional Container */
         
             background-color: black;
             
@@ -25,7 +35,7 @@ body{
             margin-left: 35px;
         }
 
-            #prof_txt{ /* YOUR PROFESSIONAL */
+            #job{ /* YOUR PROFESSIONAL */
 
                 writing-mode: vertical-lr;
 
@@ -44,9 +54,8 @@ body{
             }
 
 
-        #data{ /* Daten Container */
-            background-color: rgb(255, 0, 0);
-
+        #data_con{ /* Data Container */
+            
             height: 900px;
             width: 635px;
 
@@ -54,186 +63,266 @@ body{
             margin-left: 45px;
         }
 
-            #name{
+            #name_con{
 
-                border-bottom: 3px solid rgb(0, 0, 0);
+                height: 170px;            
             }
 
-                #namedef{ /* NAME SURNAME */
-
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    font-size: 52px;
-
-                    
-                    margin-top: 50px;
-                    margin-bottom: 50px;
+                #name{ /* NAME SURNAME */
+      
+                    font-size: 52px;                   
                 }
 
-            #socials{
-                border: 1px solid black;
+            #socials_con{ /* Socials Container */
+                
                 display: flex;
                 justify-content: space-between;
 
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 18px;
 
-                height: 50px;
-                width: 500px;
+                height: 70px;
+                width: 100%;
 
-                margin-top: 0px;
-                margin-left: 35px;
+
+                margin-top: 10px;
+                margin-left: 0px;
 
 
             }
 
                 #social1{
-                    border: 1px solid black;
+                    
                 }
 
                 #social2{
-                    border: 1px solid black;
+                    
                 }
 
                 #social3{
-                    border: 1px solid black;
+                    
                 }
 
-        
-        
-        #core{ /* CORE COMPETENCIES */
-            
-            border-bottom: 3px solid rgb(0, 0, 0);
 
-            height: 80px;
-
-            margin-top: 10px;
-        }
-
-            .headline{
+            .headline{ /* Headline */
 
                 color: black;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
                 font-size: 30px;
 
                 margin: auto;
                 margin-top: 30px;
             }
 
+            .underscore{ /* Headline Underscore */
+                border-bottom: 3px solid rgb(0, 0, 0);
+
+                height: auto;
+
+                margin-top: 5px;
+            }
+
         
-        #skills{ /* Fähigkeiten Container */
+        #skills_con{ /* Fähigkeiten Container */
 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 18px;
+            display: flex;
+            justify-content: flex-start;
 
-            margin-top: 20px;
+            margin-top: 0px;
         }
 
             #list1{
-                border: 1px solid black;
                 
                 height: 150px;
                 width: 317px;
 
-                margin-left: -23px;
+                margin-left: -20px;
             }
 
             #list2{
-                border: 1px solid black;
-
+                
                 height: 150px;
                 width: 317px;
-
-                margin-top: -152px;
-                margin-left: 261px;
             }
 
+            .ulistsq{ /* List Style Square */
+      
+                list-style-type: square;
+   
+                font-size: 18px;
+            }
+
+
+        .con{ /* Qualification Container */  
             
-        #eq{ /* EDUCATION QUALIFICATION */
+            display: flex;
+            justify-content: flex-start;
 
-            border-bottom: 3px solid black;
+            font-size: 16px; 
 
-            height: 80px;
-
-            margin-top: -30px;
+            height: 60px;
         }
 
-        #quali1{
-            border: 1px solid black;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 16px;
-
-            margin-top: 20px;
-        }
-
-            #dates1{
-                border: 1px solid black;
-                
-                height: 120px;
-                width: 50px;
+            .dates{ /* Container-Date */
+                         
+                height: 90px;
+                width: 80px;
 
                 margin-left: 0px;
             }
 
-            #text1{
-                border: 1px solid black;
+            .title{
 
-                height: 117px;
+                height: 90px;
+                width: 100%;
 
-
-                margin-top: -74px;
-                margin-left: 102px;
+                margin-left: 20px;
             }
-        
-        
-        #quali2{
-            border: 1px solid black;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 18px;
+
+            .text{ /* Container-Text */
     
-            margin-top: 20px;
-        }
-    
-            #dates2{
-                border: 1px solid black;
+                text-align: justify;
+
+                margin-top: 6px;
+                margin-left: 91px;   
+            }
+
+
+
+
+        #pic_con{ /* Photo Container */
+
+            background-color: rgb(212, 175, 55);
                     
-                height: 120px;
-                width: 100px;
-    
+            display: flex;
+            justify-content: center;
 
-                margin-left: 0px;
-            }
-    
-            #text2{
-                border: 1px solid black;
-    
-                height: 120px;
-                width: 317px;
-    
-                margin-top: -152px;
-                margin-left: 101px;
-            }
-
-
-        #pic{ /* Photo Container */
-            background-color: rgb(223, 191, 12);
-            
             height: 900px;
-            width: 300px;
+            width: 400px;
 
             margin-top: 35px;
             margin-left: 45px;
         }
 
+            #personal_con{ /* Personal Statement Container */
+
+                height: 820px;
+                width: 250px;
+
+                margin-top: 40px;
+            }
+
+                #photo{
+
+                    background-image: url("../images/morpheus.jpg");
+                    background-size: cover;
+
+                    height: 250px;
+                    width: 200px;
+
+                    margin-left: 25px;
+                }
+
+                .headline_small{ /* Headline Small */
+
+                    color: black;
+                    
+                    font-size: 16px;
+    
+                    margin: auto;
+                    margin-top: 30px;
+                }
+
+                #text_small{
+
+                    text-align: justify;
+                            
+                    font-size: 14px;
+
+                    height: 270px;
+                }
+
+                #address_con{
+
+                    display: flex;
+                    justify-content: center;
+
+                    font-size: 15px;
+
+                    margin-top: 35px;
+                    margin-left: -41px;
+                }
+
+                    #address{
+                        
+                        background-image: url("../images/address.png");
+                        background-size: cover;
+
+                        height: 25px;
+                        width: 35px;
+
+                        margin-top: 30px;
+                        margin-right: 9px;
+                    }
+
+                #phone_con{ /* Phone Container */
+                    
+                    display: flex;
+                    justify-content: center;
+
+                    font-size: 15px;
+
+                    margin-top: -15px;
+                    margin-left: -36px;
+                }
+
+                    #phone{
+                        
+                        background-image: url("../images/phone.png");
+                        background-size: contain;
+
+                        height: 29px;
+                        width: 16px;
+
+                        margin-top: 9px;
+                        margin-right: 18px;
+                    }
+
+                #email_con{ /* E-Mail Container */
+        
+                    display: flex;
+                    justify-content: center;
+
+                    font-size: 15px;
+
+                    margin-top: -10px;                 
+                }
+
+                    #email{
+                        
+                        background-image: url("../images/email.png");
+                        background-size: contain;
+
+                        height: 18px;
+                        width: 29px;
+
+                        margin-top: 15px;
+                        margin-right: 10px;
+                    }
 
 
-        #xp{ /* EXPERIENCE Container */
-            background-color: rgb(223, 141, 12);
+        #xp_con{ /* EXPERIENCE Container */
             
-
             height: 900px;
-            width: 800px;
+            width: 650px;
 
             margin-top: 35px;
             margin-left: 45px;
             margin-right: 35px;
         }
+
+        .spacing{
+        
+            height: 20px;
+        }
+
+            
